@@ -1,0 +1,25 @@
+@use "../../../../globals.scss" as *;
+.buy-cake {
+  background-color: $white;
+  padding: 1.5rem;
+  &__title {
+    color: $dark-purple;
+    margin-bottom: 1.5rem;
+
+    span {
+      color: $purple;
+    }
+  }
+
+  &__description {
+    color: $light-purple;
+    margin-bottom: 1.5rem;
+  }
+
+  &__interact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
