@@ -1,11 +1,14 @@
 import React from "react";
+
 import BuyCakeButton from "../BuyCakeButton/BuyCakeButton";
 import Learn from "../Learn/Learn";
 import Stats from "../Stats/Stats";
+import Cakes from "../Cakes/Cakes";
 import "./BuyCake.scss";
 const BuyCake = () => {
   return (
     <div className="buy-cake">
+      <Cakes />
       <h1 className="buy-cake__title">
         <span>CAKE</span> makes our world go round.
       </h1>

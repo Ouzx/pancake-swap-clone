@@ -1,0 +1,74 @@
+.cakes {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  margin-left: auto;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: 3s ease-in-out 1s infinite normal none running first-anim;
+
+    &:nth-child(2) {
+      animation: 3s ease-in-out 1s infinite normal none running second-anim;
+    }
+
+    &:nth-child(3) {
+      animation: 3s ease-in-out 1s infinite normal none running third-anim;
+    }
+
+    &:nth-child(4) {
+      animation: 3s ease-in-out 1s infinite normal none running fourth-anim;
+    }
+  }
+}
+
+@keyframes first-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes second-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes third-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(6px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fourth-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(4px, 12px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
