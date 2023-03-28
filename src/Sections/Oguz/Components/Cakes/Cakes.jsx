@@ -29,6 +29,16 @@ const Cakes = () => {
   https://pancakeswap.finance//images/home/cake/top-left@2x.webp 1024w,"
         alt="Small 3d pancake"
       ></img>
+      <img
+        style={{
+          visibility: "hidden",
+          position: "relative",
+        }}
+        srcSet="https://pancakeswap.finance//images/home/cake/bottom-right.webp 512w,
+  https://pancakeswap.finance//images/home/cake/bottom-right@1.5x.webp 768w,
+  https://pancakeswap.finance//images/home/cake/bottom-right@2x.webp 1024w,"
+        alt="Small 3d pancake"
+      ></img>
     </div>
   );
 };
