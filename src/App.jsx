@@ -1,9 +1,9 @@
 import "./App.scss";
-import Index from "./Sections/Oguz";
+import OguzSection from "./Sections/Oguz";
 function App() {
   return (
     <div className="App">
-      <Index />
+      <OguzSection />
     </div>
   );
 }
