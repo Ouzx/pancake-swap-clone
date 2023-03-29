@@ -8,6 +8,7 @@ import Seperator from "../Seperator/Seperator";
 import PsCoin from "../PsCoin/PsCoin";
 import Button from "../Button/Button";
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import Links from "../Links/Links";
 
 const Footer = () => {
@@ -23,7 +24,10 @@ const Footer = () => {
       </div>
       <div className="footer-container__theme-language">
         <ThemeSwitch />
+        <LanguageSelector />
       </div>
+      <Seperator />
+
       <Links />
     </div>
   );

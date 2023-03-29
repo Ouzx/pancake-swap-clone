@@ -10,4 +10,11 @@ $bg: #27262c;
     align-items: center;
     justify-content: space-between;
   }
+
+  &__theme-language {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
 }
