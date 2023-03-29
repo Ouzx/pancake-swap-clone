@@ -38,7 +38,7 @@ const Footer = () => {
         </Links>
         <Seperator visible={false} topGap="42px" />
         <SocialIcons />
-        <Seperator topGap="42px" />
+        <Seperator showOnTablet topGap="42px" />
       </div>
     </div>
   );

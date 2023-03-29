@@ -1,6 +1,11 @@
 import React from "react";
 import "./Seperator.scss";
-const Seperator = ({ topGap = "0px", bottomGap = "0px", visible = true }) => {
+const Seperator = ({
+  topGap = "0px",
+  bottomGap = "0px",
+  visible = true,
+  showOnTablet = false,
+}) => {
   return (
     <div
       style={{
@@ -8,7 +13,7 @@ const Seperator = ({ topGap = "0px", bottomGap = "0px", visible = true }) => {
         marginBottom: bottomGap,
         visibility: visible ? "visible" : "hidden",
       }}
-      className="seperator"
+      className={`seperator ${showOnTablet ? "seperator-show-on-tablet" : ""}`}
     ></div>
   );
 };
