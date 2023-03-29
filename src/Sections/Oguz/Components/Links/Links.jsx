@@ -16,7 +16,7 @@ const data = [
   },
 ];
 
-const Links = () => {
+const Links = ({ children }) => {
   return (
     <div className="links-container">
       {data.map((item, index) => {
@@ -40,6 +40,7 @@ const Links = () => {
           </div>
         );
       })}
+      {children}
     </div>
   );
 };

@@ -2,6 +2,22 @@
 $bg: #27262c;
 .footer {
   background-color: $bg;
+
+  &-logo-top {
+    @include sm {
+      display: none;
+    }
+  }
+
+  &-logo-bottom {
+    display: none;
+    @include sm {
+      display: block;
+      align-self: flex-start;
+      width: 160px !important;
+      padding-top: 0.5rem;
+    }
+  }
 }
 
 .footer-container {
@@ -12,6 +28,9 @@ $bg: #27262c;
   @include sm {
     padding: 3.5rem 2.5rem 2rem;
   }
+
+  display: flex;
+  flex-direction: column;
 
   &__coin-button {
     margin-top: 1.5rem;

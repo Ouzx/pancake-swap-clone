@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <Logo />
+        <Logo className="footer-logo-top" />
         <Seperator />
 
         <div className="footer-container__coin-button">
@@ -33,7 +33,9 @@ const Footer = () => {
 
         <Seperator />
 
-        <Links />
+        <Links>
+          <Logo className="footer-logo-bottom" />
+        </Links>
         <Seperator visible={false} topGap="42px" />
         <SocialIcons />
         <Seperator topGap="42px" />
