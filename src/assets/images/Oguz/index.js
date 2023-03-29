@@ -1,3 +1,3 @@
 import purpleBg from "./purpleBG.svg";
-
-export { purpleBg };
+import Logo from "./logo.svg";
+export { purpleBg, Logo };
