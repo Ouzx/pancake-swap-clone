@@ -10,6 +10,7 @@ import Button from "../Button/Button";
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import Links from "../Links/Links";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 const Footer = () => {
   return (
@@ -29,6 +30,9 @@ const Footer = () => {
       <Seperator />
 
       <Links />
+      <Seperator visible={false} topGap="42px" />
+      <SocialIcons />
+      <Seperator topGap="42px" />
     </div>
   );
 };
