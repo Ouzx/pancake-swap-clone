@@ -42,7 +42,7 @@ const data = {
 const Stats = () => {
   return (
     <div className="stats">
-      <div>
+      <div className="stats--row">
         {data.firstPart.map((item, index) => {
           return (
             <StatItem
@@ -55,7 +55,7 @@ const Stats = () => {
         })}
       </div>
 
-      <div>
+      <div className="stats--row">
         {data.secondPart.map((item, index) => {
           return (
             <StatItem
