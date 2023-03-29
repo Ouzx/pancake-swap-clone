@@ -6,7 +6,7 @@ $text-white: #fff;
 .connect-wallet {
   position: relative;
   background: linear-gradient(90deg, #7343d6 50%, #5323b4 100%);
-
+  overflow: hidden;
   &__image {
     display: flex;
     -webkit-box-align: center;
@@ -40,6 +40,14 @@ $text-white: #fff;
 
     @include md {
       padding: 3rem 3rem;
+    }
+
+    @include lg {
+      padding: 5rem 5rem;
+    }
+
+    @include xl {
+      padding: 6rem 6rem;
     }
 
     text-align: center;
