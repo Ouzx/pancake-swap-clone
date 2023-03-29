@@ -1,9 +1,16 @@
 $screen-sizes: (
+  xs: 370px,
   sm: 575px,
-  md: 851px,
+  md: 852px,
   lg: 968px,
   xl: 1080px,
 );
+
+@mixin xs {
+  @media (min-width: map-get($screen-sizes, xs)) {
+    @content;
+  }
+}
 
 @mixin sm {
   @media (min-width: map-get($screen-sizes, sm)) {

@@ -1,0 +1,49 @@
+@use "../../../../globals.scss" as *;
+@use "../../../../screens.scss" as *;
+
+.buy-cake {
+  max-width: 968px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    // padding: 0;
+  }
+
+  &__title {
+    color: var(--color-dark-purple);
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+
+    span {
+      color: var(--color-purple);
+    }
+  }
+
+  &__description {
+    color: var(--color-light-purple);
+    margin-bottom: 1.5rem;
+  }
+
+  &__interact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__top {
+    @include md {
+      display: flex;
+      flex-direction: row-reverse;
+      &__info {
+        flex: 1 1 0%;
+        margin-right: 4rem;
+        align-self: center;
+      }
+    }
+  }
+}

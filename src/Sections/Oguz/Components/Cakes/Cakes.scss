@@ -1,0 +1,95 @@
+@use "../../../../screens.scss" as *;
+.cakes {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+  max-height: 512px;
+  display: flex;
+  img {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    animation: 3s ease-in-out 1s infinite normal none running first-anim;
+
+    &:nth-child(2) {
+      animation: 3s ease-in-out 1s infinite normal none running second-anim;
+    }
+
+    &:nth-child(3) {
+      animation: 3s ease-in-out 1s infinite normal none running third-anim;
+    }
+
+    &:nth-child(4) {
+      animation: 3s ease-in-out 1s infinite normal none running fourth-anim;
+    }
+
+    @include md {
+      //  maxHeight: "512px",
+      //     height: "auto",
+      //     maxWidth: "100%",
+      max-height: 512px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  @include md {
+    flex: 1 1 0%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes first-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes second-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes third-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(6px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fourth-anim {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(4px, 12px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

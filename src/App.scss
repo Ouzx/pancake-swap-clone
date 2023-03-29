@@ -1,4 +1,6 @@
-html {
+@use "./globals.scss" as *;
+
+* {
   font-family: "Kanit", sans-serif;
 }
 
@@ -9,4 +11,14 @@ body {
 
   line-height: 1;
   font-size: 16px;
+
+  background-color: var(--color-white);
+}
+
+.App {
+  position: relative;
+}
+
+p {
+  line-height: 1.5;
 }

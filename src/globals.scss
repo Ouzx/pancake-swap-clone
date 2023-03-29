@@ -1,0 +1,30 @@
+:root {
+  --color-white: #faf9fa;
+  --color-accent: #1fc7d4;
+  --color-purple: #7645d9;
+  --color-dark-purple: #280d5f;
+  --color-light-purple: #7a6eaa;
+  --color-light-purple-2: #b8add2;
+}
+body[data-theme="dark"] {
+  --color-white: #08060b;
+  --color-accent: #1fc7d4;
+  --color-purple: #9a6aff;
+  --color-dark-purple: #f4eeff;
+  --color-light-purple: #b8add2;
+}
+$accent: #1fc7d4;
+// // light theme
+// var(--color-white): #faf9fa;
+// var(--color-accent): #1fc7d4;
+// var(--color-purple): #7645d9;
+// var(--color-dark-purple): #280d5f;
+// var(--color-light-purple): #7a6eaa;
+// var(--color-light-purple)-2: #b8add2;
+
+// // dark theme
+// var(--color-white)-dark: #08060b;
+// var(--color-accent)-dark: #1fc7d4;
+// var(--color-purple)-dark: #9a6aff;
+// var(--color-dark-purple)-dark: #f4eeff;
+// var(--color-light-purple)-dark: #b8add2;

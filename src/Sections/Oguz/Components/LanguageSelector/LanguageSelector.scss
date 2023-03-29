@@ -1,0 +1,8 @@
+@use "../../../../globals.scss" as *;
+.langauge-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-light-purple-2);
+  line-height: 1.5;
+}

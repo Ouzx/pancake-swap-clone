@@ -1,0 +1,16 @@
+@use "../../../../globals.scss" as *;
+.external-link {
+  display: flex;
+  align-items: center;
+
+  color: var(--color-accent);
+
+  font-weight: 600;
+  line-height: 1.5;
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 0.2rem;
+  }
+}

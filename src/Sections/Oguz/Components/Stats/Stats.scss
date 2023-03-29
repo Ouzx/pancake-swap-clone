@@ -1,0 +1,17 @@
+@use "../../../../screens.scss" as *;
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include md {
+    display: flex;
+    flex-direction: column;
+
+    .stats--row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

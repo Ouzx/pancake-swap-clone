@@ -1,0 +1,49 @@
+@use "../../../../globals.scss" as *;
+@use "../../../../screens.scss" as *;
+
+$border-color: rgba(var(--color-light-purple), 0.3);
+
+.stat-item {
+  margin-bottom: 1.3rem;
+  p {
+    line-height: 1;
+  }
+
+  p:first-child {
+    color: var(--color-light-purple);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.3rem;
+  }
+  p:last-child {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color-dark-purple);
+  }
+
+  @include md {
+    border-left: 1px solid $border-color;
+    padding-left: 0.5rem;
+  }
+}
+
+.stat-item:first-child {
+  @include md {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+.stat-item--second {
+  border-left: 1px solid $border-color;
+  padding-left: 0.5rem;
+
+  @include md {
+    &:last-child,
+    &:nth-child(2) {
+      margin-right: 0.85rem;
+    }
+  }
+}

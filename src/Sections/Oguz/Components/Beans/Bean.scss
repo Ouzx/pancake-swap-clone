@@ -1,0 +1,76 @@
+@use "../../../../screens.scss" as *;
+
+.beans-container {
+  position: relative;
+  max-height: 16rem;
+  .beans-bean-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: 3s ease-in-out 0.33s infinite normal none running bean-anim-1;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+
+    &:nth-child(2) {
+      animation: 3s ease-in-out 0.66s infinite normal none running bean-anim-2;
+    }
+
+    &:nth-child(3) {
+      animation: 3s ease-in-out 0.99s infinite normal none running bean-anim-3;
+    }
+  }
+}
+
+.upper-bean-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.lower-bean-group {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+@keyframes bean-anim-1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes bean-anim-2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes bean-anim-3 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(6px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
