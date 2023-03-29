@@ -11,16 +11,15 @@ const UpperBeans = () => {
             height: "auto",
             maxWidth: "100%",
           }}
-          srcset="https://pancakeswap.finance/images/home/flying-pancakes/1-bottom.webp 512w,
+          srcSet="https://pancakeswap.finance/images/home/flying-pancakes/1-bottom.webp 512w,
                 https://pancakeswap.finance/images/home/flying-pancakes/1-bottom@1.5x.webp 768w,
                 https://pancakeswap.finance/images/home/flying-pancakes/1-bottom@2x.webp 1024w,"
           loading="lazy"
           decoding="async"
-          class="sc-dd92527b-1 fxqDPC"
         ></img>
         <div className="beans-bean-container">
           <img
-            srcset="https://pancakeswap.finance/images/home/flying-pancakes/1-bottom.webp 512w,
+            srcSet="https://pancakeswap.finance/images/home/flying-pancakes/1-bottom.webp 512w,
                   https://pancakeswap.finance/images/home/flying-pancakes/1-bottom@1.5x.webp 768w,
                   https://pancakeswap.finance/images/home/flying-pancakes/1-bottom@2x.webp 1024w,"
             alt="Pancake flying on the bottom"
@@ -28,7 +27,7 @@ const UpperBeans = () => {
         </div>
         <div className="beans-bean-container">
           <img
-            srcset="https://pancakeswap.finance/images/home/flying-pancakes/1-left.webp 512w,
+            srcSet="https://pancakeswap.finance/images/home/flying-pancakes/1-left.webp 512w,
                   https://pancakeswap.finance/images/home/flying-pancakes/1-left@1.5x.webp 768w,
                   https://pancakeswap.finance/images/home/flying-pancakes/1-left@2x.webp 1024w,"
             alt="Pancake flying on the left"
@@ -36,7 +35,7 @@ const UpperBeans = () => {
         </div>
         <div className="beans-bean-container">
           <img
-            srcset="https://pancakeswap.finance/images/home/flying-pancakes/1-top.webp 512w,
+            srcSet="https://pancakeswap.finance/images/home/flying-pancakes/1-top.webp 512w,
   https://pancakeswap.finance/images/home/flying-pancakes/1-top@1.5x.webp 768w,
   https://pancakeswap.finance/images/home/flying-pancakes/1-top@2x.webp 1024w,"
             alt="Pancake flying on the top"
