@@ -10,6 +10,8 @@ $orange: #ffb237;
   @include sm {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2.25rem;
+    order: 1;
   }
 
   color: $white;

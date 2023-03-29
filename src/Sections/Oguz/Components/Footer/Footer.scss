@@ -38,6 +38,9 @@ $bg: #27262c;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include sm {
+      gap: 1.5rem;
+    }
   }
 
   &__theme-language {
@@ -45,5 +48,30 @@ $bg: #27262c;
     align-items: center;
     gap: 1.5rem;
     margin: 1.5rem 0;
+  }
+
+  &__social-icons {
+    @include sm {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__interact {
+    display: flex;
+    flex-direction: column;
+
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    @include sm {
+      order: 3;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
   }
 }

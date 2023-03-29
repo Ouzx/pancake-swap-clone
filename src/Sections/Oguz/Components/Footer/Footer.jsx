@@ -19,26 +19,30 @@ const Footer = () => {
         <Logo className="footer-logo-top" />
         <Seperator />
 
-        <div className="footer-container__coin-button">
-          <PsCoin />
-          <Button text="Buy CAKE" style={{ padding: "0.3rem 1rem" }}>
-            <AiOutlineArrowRight />
-          </Button>
-        </div>
+        <div className="footer-container__interact">
+          <div className="footer-container__coin-button">
+            <PsCoin />
+            <Button text="Buy CAKE" style={{ padding: "0.3rem 1rem" }}>
+              <AiOutlineArrowRight />
+            </Button>
+          </div>
 
-        <div className="footer-container__theme-language">
-          <ThemeSwitch />
-          <LanguageSelector />
+          <div className="footer-container__theme-language">
+            <ThemeSwitch />
+            <LanguageSelector />
+          </div>
         </div>
-
         <Seperator />
 
         <Links>
           <Logo className="footer-logo-bottom" />
         </Links>
         <Seperator visible={false} topGap="42px" />
-        <SocialIcons />
-        <Seperator showOnTablet topGap="42px" />
+        <div className="footer-container__social-icons">
+          <SocialIcons />
+          <Seperator topGap="42px" />
+          <Seperator showOnTablet />
+        </div>
       </div>
     </div>
   );
