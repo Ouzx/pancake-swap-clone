@@ -7,6 +7,7 @@ import Logo from "../Logo/Logo";
 import Seperator from "../Seperator/Seperator";
 import PsCoin from "../PsCoin/PsCoin";
 import Button from "../Button/Button";
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import Links from "../Links/Links";
 
 const Footer = () => {
@@ -19,6 +20,9 @@ const Footer = () => {
         <Button text="Buy CAKE" style={{ padding: "0.3rem 1rem" }}>
           <AiOutlineArrowRight />
         </Button>
+      </div>
+      <div className="footer-container__theme-language">
+        <ThemeSwitch />
       </div>
       <Links />
     </div>
