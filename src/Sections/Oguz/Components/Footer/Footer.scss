@@ -1,7 +1,17 @@
+@use "../../../../screens.scss" as *;
 $bg: #27262c;
-.footer-container {
+.footer {
   background-color: $bg;
+}
+
+.footer-container {
+  max-width: 75rem;
+  margin: 0 auto;
+
   padding: 2.5rem 1rem;
+  @include sm {
+    padding: 3.5rem 2.5rem 2rem;
+  }
 
   &__coin-button {
     margin-top: 1.5rem;
