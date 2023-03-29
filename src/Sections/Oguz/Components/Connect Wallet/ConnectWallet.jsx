@@ -1,7 +1,8 @@
 import React from "react";
 import ExternalLink from "../ExternalLink/ExternalLink";
 import Button from "../Button/Button";
-
+import UpperBeans from "../Beans/UpperBeans";
+import LowerBeans from "../Beans/LowerBeans";
 import { purpleBg } from "../../../../assets/images/Oguz";
 import "./ConnectWallet.scss";
 
@@ -19,6 +20,10 @@ const ConnectWallet = () => {
         }}
       >
         <div className="connect-wallet__image"></div>
+      </div>
+      <div className="connect-wallet__beans">
+        <UpperBeans />
+        <LowerBeans />
       </div>
       <div className="connect-wallet__content">
         <h2 className="connect-wallet__title">Starts in seconds.</h2>
