@@ -4,7 +4,7 @@
 .buy-cake {
   max-width: 968px;
   margin: 0 auto;
-  background-color: $white;
+  background-color: var(--color-white);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -14,17 +14,17 @@
   }
 
   &__title {
-    color: $dark-purple;
+    color: var(--color-dark-purple);
     margin-bottom: 1.5rem;
     font-size: 40px;
 
     span {
-      color: $purple;
+      color: var(--color-purple);
     }
   }
 
   &__description {
-    color: $light-purple;
+    color: var(--color-light-purple);
     margin-bottom: 1.5rem;
   }
 
