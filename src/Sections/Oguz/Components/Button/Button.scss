@@ -14,6 +14,11 @@
   border-bottom: 1px solid rgba($color: #000000, $alpha: 0.8);
 
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   &:hover {
     background-color: lighten($accent, 5%);
   }
