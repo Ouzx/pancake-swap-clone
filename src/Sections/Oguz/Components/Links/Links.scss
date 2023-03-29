@@ -1,0 +1,32 @@
+$white: #fff;
+$purple: #9a6aff;
+$orange: #ffb237;
+.links-container {
+  display: flex;
+  flex-direction: column;
+
+  color: $white;
+
+  &__column {
+    margin-bottom: 1.5rem;
+    &__title {
+      color: $purple;
+      font-size: 1rem;
+    }
+
+    &__list {
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+      }
+
+      &__contact {
+        color: $orange;
+      }
+    }
+  }
+}
