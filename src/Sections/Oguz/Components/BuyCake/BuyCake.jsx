@@ -1,7 +1,7 @@
 import React from "react";
 
-import BuyCakeButton from "../BuyCakeButton/BuyCakeButton";
-import Learn from "../Learn/Learn";
+import Button from "../Button/Button";
+import ExternalLink from "../ExternalLink/ExternalLink";
 import Stats from "../Stats/Stats";
 import Cakes from "../Cakes/Cakes";
 import "./BuyCake.scss";
@@ -19,8 +19,8 @@ const BuyCake = () => {
             it, farm it, spend it, stake it... heck, you can even vote with it!
           </p>
           <div className="buy-cake__interact">
-            <BuyCakeButton />
-            <Learn />
+            <Button text={"Buy CAKE"} />
+            <ExternalLink text="Learn" />
           </div>
         </div>
       </div>
