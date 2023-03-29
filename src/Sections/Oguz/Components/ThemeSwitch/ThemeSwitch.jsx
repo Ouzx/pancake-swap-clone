@@ -1,24 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
+import { useThemeContext } from "../../../../Context/ThemeContext";
 import { FiSun, FiMoon } from "react-icons/fi";
 
 import "./ThemeSwitch.scss";
 const ThemeSwitch = () => {
-  const [data, setData] = useState(false);
+  const { theme, toggleTheme } = useThemeContext();
 
   const onClick = () => {
-    setData(!data);
+    toggleTheme();
   };
 
   return (
     <div onClick={onClick} className={"switch-container"}>
       <div onClick={onClick} className={"switch-container__wrapper"}>
-        <input type="checkbox" checked={data} readOnly onClick={onClick} />
+        <input type="checkbox" checked={theme} readOnly onClick={onClick} />
         <div
-          aria-checked={data}
+          aria-checked={theme}
           onClick={onClick}
           className="switch-container__wrapper__holder"
         >
-          {!data ? (
+          {!theme ? (
             <FiSun
               onClick={onClick}
               size={20}
