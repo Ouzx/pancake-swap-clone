@@ -17,16 +17,19 @@ const Footer = () => {
     <div className="footer-container">
       <Logo />
       <Seperator />
+
       <div className="footer-container__coin-button">
         <PsCoin />
         <Button text="Buy CAKE" style={{ padding: "0.3rem 1rem" }}>
           <AiOutlineArrowRight />
         </Button>
       </div>
+
       <div className="footer-container__theme-language">
         <ThemeSwitch />
         <LanguageSelector />
       </div>
+
       <Seperator />
 
       <Links />

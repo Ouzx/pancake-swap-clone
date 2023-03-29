@@ -1,9 +1,16 @@
+@use "../../../../screens.scss" as *;
+
 $white: #fff;
 $purple: #9a6aff;
 $orange: #ffb237;
 .links-container {
   display: flex;
   flex-direction: column;
+
+  @include sm {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   color: $white;
 
