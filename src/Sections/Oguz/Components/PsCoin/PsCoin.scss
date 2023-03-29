@@ -1,0 +1,11 @@
+$text-color: #b8add2;
+
+.ps-coin {
+  display: flex;
+  align-items: center;
+  span {
+    color: $text-color;
+    font-weight: 600;
+    margin-left: 0.5rem;
+  }
+}

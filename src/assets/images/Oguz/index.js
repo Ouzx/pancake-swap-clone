@@ -1,3 +1,4 @@
 import purpleBg from "./purpleBG.svg";
 import Logo from "./logo.svg";
-export { purpleBg, Logo };
+import psIcon from "./psIcon.svg";
+export { purpleBg, Logo, psIcon };
