@@ -83,7 +83,7 @@ const Stats = () => {
 
   const updateCurrency = (value, targetValue) => {
     const currentValue = parseInt(value.replace(/\D/g, ""));
-    const increment = Math.ceil((targetValue - currentValue) / 10);
+    const increment = Math.ceil((targetValue - currentValue) / 100);
     const newValue = Math.min(currentValue + increment, targetValue);
     return value.replace(
       currentValue.toLocaleString(),
