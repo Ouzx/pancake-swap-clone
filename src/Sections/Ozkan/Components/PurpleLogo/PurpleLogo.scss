@@ -1,0 +1,43 @@
+.purplehome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.purplelogo {
+    align-self: center;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.home2-header {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0px;
+    text-align: center;
+    color: var(--color-dark-purple);
+
+    &:last-of-type {
+        margin-bottom: 32px; 
+    }
+}
+
+.home2-text {
+    color: var(--color-light-purple);
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+
+    &:nth-last-of-type(2) {
+        margin-bottom: 20px;
+    }
+
+    &:last-of-type {
+        font-weight: 600;
+        margin-bottom: 32px;
+    }
+}

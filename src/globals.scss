@@ -5,6 +5,11 @@
   --color-dark-purple: #280d5f;
   --color-light-purple: #7a6eaa;
   --color-light-purple-2: #b8add2;
+  --colors-cardBorder: #e7e3eb;
+  --colors-backgroundAlt: #fff;
+  --colors-failure: #ed4b9e;
+  --colors-home2: #fff;
+  --colors-home2-1: #d7caec;
 }
 body[data-theme="dark"] {
   --color-white: #08060b;
@@ -12,6 +17,11 @@ body[data-theme="dark"] {
   --color-purple: #9a6aff;
   --color-dark-purple: #f4eeff;
   --color-light-purple: #b8add2;
+  --colors-cardBorder: #383241;
+  --colors-backgroundAlt: #27262c;
+  --colors-failure: #ed4b9e;
+  --colors-home2: #09070c;
+  --colors-home2-1: #201335;
 }
 $accent: #1fc7d4;
 // // light theme

@@ -1,0 +1,25 @@
+@use "../../../screens.scss" as *;
+@use "../../../globals.scss" as *;
+
+.home2 {
+    background: linear-gradient(180deg, var(--colors-home2) 22%, var(--colors-home2-1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 16px;
+    min-height: auto;
+    padding: 48px 16px;
+
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    @include md {
+        flex-direction: row;
+    }
+}
