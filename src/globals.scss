@@ -14,6 +14,20 @@ body[data-theme="dark"] {
   --color-light-purple: #b8add2;
 }
 $accent: #1fc7d4;
+
+%scroll-bar {
+  &::-webkit-scrollbar {
+    background-color: var(--color-white);
+    width: 0.6rem;
+    border-radius: 0.5rem;
+
+    &-thumb {
+      background-color: var(--color-light-purple);
+      border-radius: 0.5rem;
+    }
+  }
+}
+
 // // light theme
 // var(--color-white): #faf9fa;
 // var(--color-accent): #1fc7d4;
