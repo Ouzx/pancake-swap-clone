@@ -6,6 +6,7 @@
   --color-light-purple: #7a6eaa;
   --color-light-purple-2: #b8add2;
   --color-bar-bg: #fff;
+  --color-tertiary: #eff4f5;
 }
 body[data-theme="dark"] {
   --color-white: #08060b;
@@ -14,6 +15,7 @@ body[data-theme="dark"] {
   --color-dark-purple: #f4eeff;
   --color-light-purple: #b8add2;
   --color-bar-bg: #27262c;
+  --color-tertiary: #353547;
 }
 $accent: #1fc7d4;
 
