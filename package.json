@@ -1,5 +1,6 @@
 {
   "name": "pancake-swap-clone",
+  "homepage": "https://ouzx.github.io/pancake-swap-clone/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
