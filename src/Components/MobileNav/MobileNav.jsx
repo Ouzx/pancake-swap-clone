@@ -16,6 +16,12 @@ const MobileNav = () => {
       <button className="mobile-nav__item">
         <Earn />
         Earn
+        {/* <div className="mobile-nav__item__overlay">
+          <div className="mobile-nav__item__content mobile-nav__item__content__left">
+            <div className="mobile-nav__item__content__item">Farms</div>
+            <div className="mobile-nav__item__content__item">Pools</div>
+          </div>
+        </div> */}
       </button>
       <button className="mobile-nav__item">
         <Win />
