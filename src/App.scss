@@ -17,6 +17,7 @@ body {
   @extend %scroll-bar;
 
   position: relative;
+  overflow-x: hidden;
 }
 
 .App {

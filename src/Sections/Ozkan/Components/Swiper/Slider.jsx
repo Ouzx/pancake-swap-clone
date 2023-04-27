@@ -31,9 +31,9 @@ const Slider = () => {
       case 2:
         return <Slide4 />;
       case 3:
-        return <Slide1/>;
+        return <Slide1 />;
       case 4:
-        return <Slide2/>;
+        return <Slide2 />;
 
       default:
         return <Slide4 />;
@@ -41,35 +41,45 @@ const Slider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" style={{ marginTop: "10rem" }}>
       {createSlides()}
       <div className="slider-container__button-container">
         <button
-          className={`slider-container__button ${activeSlideIndex === 0 && "active"}`}
+          className={`slider-container__button ${
+            activeSlideIndex === 0 && "active"
+          }`}
           onClick={() => {
             setActiveSlideIndex(0);
           }}
         ></button>
         <button
-          className={`slider-container__button ${activeSlideIndex === 1 && "active"}`}
+          className={`slider-container__button ${
+            activeSlideIndex === 1 && "active"
+          }`}
           onClick={() => {
             setActiveSlideIndex(1);
           }}
         ></button>
         <button
-          className={`slider-container__button ${activeSlideIndex === 2 && "active"}`}
+          className={`slider-container__button ${
+            activeSlideIndex === 2 && "active"
+          }`}
           onClick={() => {
             setActiveSlideIndex(2);
           }}
         ></button>
         <button
-          className={`slider-container__button ${activeSlideIndex === 3 && "active"}`}
+          className={`slider-container__button ${
+            activeSlideIndex === 3 && "active"
+          }`}
           onClick={() => {
             setActiveSlideIndex(3);
           }}
         ></button>
         <button
-          className={`slider-container__button ${activeSlideIndex === 4 && "active"}`}
+          className={`slider-container__button ${
+            activeSlideIndex === 4 && "active"
+          }`}
           onClick={() => {
             setActiveSlideIndex(4);
           }}
