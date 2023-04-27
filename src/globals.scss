@@ -8,6 +8,7 @@
   --color-bar-bg: #fff;
   --color-tertiary: #eff4f5;
   --color-bar-border: #e7e3eb;
+  --color-black: #000;
 }
 body[data-theme="dark"] {
   --color-white: #08060b;
@@ -18,6 +19,7 @@ body[data-theme="dark"] {
   --color-bar-bg: #27262c;
   --color-tertiary: #353547;
   --color-bar-border: #383241;
+  --color-black: #fff;
 }
 $accent: #1fc7d4;
 

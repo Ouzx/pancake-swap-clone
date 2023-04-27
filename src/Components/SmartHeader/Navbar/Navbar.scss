@@ -12,8 +12,12 @@
   border-bottom: 1px solid var(--color-bar-border);
 
   padding: 0 1rem;
+
   .navbar-logo {
     flex-shrink: 0;
+    svg {
+      fill: var(--color-black);
+    }
     svg:first-child {
       display: block;
     }
@@ -31,18 +35,64 @@
     }
   }
 
+  .links {
+    display: flex;
+    align-items: center;
+
+    nav {
+      display: none;
+
+      color: var(--color-light-purple);
+
+      align-items: center;
+      gap: 1rem;
+      margin: 0 2rem;
+
+      span {
+        cursor: pointer;
+        height: 48px;
+        padding: 0 0.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 1rem;
+
+        &:hover {
+          background-color: var(--color-tertiary);
+        }
+      }
+
+      span:last-child {
+        display: flex;
+        align-items: center;
+      }
+
+      @include lg {
+        display: flex;
+      }
+    }
+  }
+
   .buttons {
     display: flex;
     align-items: center;
+    gap: 1rem;
     color: var(--color-light-purple);
 
-    padding-right: 1rem;
+    padding-right: 2rem;
 
-    * {
-      margin-right: 1rem;
+    .coin {
+      display: none;
+      span {
+        color: var(--color-light-purple) !important;
+      }
+      @include md {
+        display: block;
+      }
     }
 
     .binance-button {
+      cursor: pointer;
+
       position: relative;
       img {
         position: absolute;
@@ -51,6 +101,10 @@
         left: 0;
         width: 32px;
         height: 32px;
+
+        @include md {
+          top: 1px;
+        }
       }
 
       button {
@@ -62,9 +116,37 @@
           margin-right: auto;
           margin-left: 1.2rem;
           margin-top: 0.2rem;
+
+          @include md {
+            margin-left: 0rem;
+          }
         }
 
         margin-right: 0rem !important ;
+      }
+    }
+
+    .small {
+      display: block;
+      @include md {
+        display: none;
+      }
+    }
+
+    .medium {
+      display: none;
+      @include md {
+        display: block;
+      }
+      @include xl {
+        display: none;
+      }
+    }
+
+    .big {
+      display: none;
+      @include xl {
+        display: block;
       }
     }
   }
