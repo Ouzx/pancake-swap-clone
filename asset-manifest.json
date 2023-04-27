@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/pancake-swap-clone/static/css/main.a2dd91d4.css",
+    "main.js": "/pancake-swap-clone/static/js/main.fb2a158d.js",
+    "static/media/headerLogo.svg": "/pancake-swap-clone/static/media/headerLogo.149ee64b5ffe7426e3b24c6547c8a48f.svg",
+    "static/media/logo.svg": "/pancake-swap-clone/static/media/logo.af417cf3b9fcff8dd812eba171fa91f3.svg",
+    "static/media/bunny.webp": "/pancake-swap-clone/static/media/bunny.32b9c6f9b302264b9a48.webp",
+    "static/media/purpleBG.svg": "/pancake-swap-clone/static/media/purpleBG.ae4398697efe00820ab1a8f082164202.svg",
+    "static/media/earn.svg": "/pancake-swap-clone/static/media/earn.7b29044daa8e2f3c045ee3642e35f755.svg",
+    "static/media/psIcon.svg": "/pancake-swap-clone/static/media/psIcon.1260797bca68eaf6e67e850bf176c38a.svg",
+    "static/media/headerLogoMini.svg": "/pancake-swap-clone/static/media/headerLogoMini.b5a9dc35084dd22d361f1580e216009d.svg",
+    "static/media/square2Icon.svg": "/pancake-swap-clone/static/media/square2Icon.1f3b8f2660fbe5fae0261ad150b62718.svg",
+    "static/media/trade.svg": "/pancake-swap-clone/static/media/trade.77cdf1310708ca0c43a793c99755f17a.svg",
+    "static/media/purplelogo.svg": "/pancake-swap-clone/static/media/purplelogo.a4c84f9d75124024e672423c7a7fd381.svg",
+    "static/media/square1Icon.svg": "/pancake-swap-clone/static/media/square1Icon.e4e78a3958faa324136c71ad9956f2c2.svg",
+    "index.html": "/pancake-swap-clone/index.html",
+    "static/media/nft.svg": "/pancake-swap-clone/static/media/nft.7ad4a42acbe5e5ce30e9767d801c897a.svg",
+    "static/media/square3Icon.svg": "/pancake-swap-clone/static/media/square3Icon.c67d4abc9d5d89942c1ae2403a0c9c6d.svg",
+    "static/media/gradient2.svg": "/pancake-swap-clone/static/media/gradient2.744deb4ac83e0cc36347039e31e1a916.svg",
+    "static/media/gradient1.svg": "/pancake-swap-clone/static/media/gradient1.87d57ea234db74d9dd0846bb5eea941b.svg",
+    "static/media/win.svg": "/pancake-swap-clone/static/media/win.831b6940f8173bd9a9e996173a462091.svg",
+    "static/media/more.svg": "/pancake-swap-clone/static/media/more.85b88810ef189438353f9c72052309d7.svg",
+    "main.a2dd91d4.css.map": "/pancake-swap-clone/static/css/main.a2dd91d4.css.map",
+    "main.fb2a158d.js.map": "/pancake-swap-clone/static/js/main.fb2a158d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2dd91d4.css",
+    "static/js/main.fb2a158d.js"
+  ]
+}
