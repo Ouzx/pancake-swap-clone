@@ -10,6 +10,10 @@
   --colors-failure: #ed4b9e;
   --colors-home2: #fff;
   --colors-home2-1: #d7caec;
+  --colors-gradient: #f4eeff;
+  --colors-gradient-back1: #e6fdff;
+  --colors-gradient-back2: #f3efff;
+  --color-contrast: #fff;
 }
 body[data-theme="dark"] {
   --color-white: #08060b;
@@ -22,6 +26,10 @@ body[data-theme="dark"] {
   --colors-failure: #ed4b9e;
   --colors-home2: #09070c;
   --colors-home2-1: #201335;
+  --colors-gradient: #280d5f;
+  --colors-gradient-back1: #21193a;
+  --colors-gradient-back2: #191326;
+  --color-contrast: #191326;
 }
 $accent: #1fc7d4;
 // // light theme
