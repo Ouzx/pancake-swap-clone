@@ -5,12 +5,14 @@ import SmartHeader from "./Components/SmartHeader/SmartHeader";
 import BackToTop from "./Components/BackToTop/BackToTop";
 import DarkMode from "./Components/DarkMode";
 import OguzSection from "./Sections/Oguz";
+import {index as OzkanSection} from "./Sections/Ozkan";
 import MobileNav from "./Components/MobileNav/MobileNav";
 
 function App() {
   return (
     <ThemeProvider>
       <div className="App">
+        <OzkanSection />
         <SmartHeader />
         <OguzSection />
         <DarkMode />
