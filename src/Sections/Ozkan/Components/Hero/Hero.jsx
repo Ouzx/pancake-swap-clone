@@ -1,7 +1,7 @@
 import React from "react";
 // import "./Hero.scss";
 import "./HeroN.scss";
-
+import bunny from "../../../../assets/images/astronaut-bunny.webp";
 function Hero() {
   return (
     <div className="hero">
@@ -32,14 +32,7 @@ function Hero() {
                 className="up-img"
               />
             </span>
-            <img
-              alt="Lunar bunny"
-              srcset="https://pancakeswap.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fastronaut-bunny.04f3a990.png&w=1080&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fastronaut-bunny.04f3a990.png&w=2048&q=75 2x"
-              src="https://pancakeswap.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fastronaut-bunny.04f3a990.png&w=2048&q=75"
-              decoding="async"
-              data-nimg="intrinsic"
-              className="nimg"
-            />
+            <img alt="Lunar bunny" src={bunny} className="nimg" />
           </span>
         </div>
         <div className="hero-fake">
