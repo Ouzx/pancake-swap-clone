@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/pancake-swap-clone/static/css/main.a2dd91d4.css",
-    "main.js": "/pancake-swap-clone/static/js/main.fb2a158d.js",
+    "main.js": "/pancake-swap-clone/static/js/main.920e405a.js",
+    "static/media/astronaut-bunny.webp": "/pancake-swap-clone/static/media/astronaut-bunny.bfa21bdb709f2f3b89ad.webp",
     "static/media/headerLogo.svg": "/pancake-swap-clone/static/media/headerLogo.149ee64b5ffe7426e3b24c6547c8a48f.svg",
     "static/media/logo.svg": "/pancake-swap-clone/static/media/logo.af417cf3b9fcff8dd812eba171fa91f3.svg",
     "static/media/bunny.webp": "/pancake-swap-clone/static/media/bunny.32b9c6f9b302264b9a48.webp",
@@ -21,10 +22,10 @@
     "static/media/win.svg": "/pancake-swap-clone/static/media/win.831b6940f8173bd9a9e996173a462091.svg",
     "static/media/more.svg": "/pancake-swap-clone/static/media/more.85b88810ef189438353f9c72052309d7.svg",
     "main.a2dd91d4.css.map": "/pancake-swap-clone/static/css/main.a2dd91d4.css.map",
-    "main.fb2a158d.js.map": "/pancake-swap-clone/static/js/main.fb2a158d.js.map"
+    "main.920e405a.js.map": "/pancake-swap-clone/static/js/main.920e405a.js.map"
   },
   "entrypoints": [
     "static/css/main.a2dd91d4.css",
-    "static/js/main.fb2a158d.js"
+    "static/js/main.920e405a.js"
   ]
 }
